@@ -1,4 +1,4 @@
-class V1::GreetingsController < ApplicationController
+class Api::V1::GreetingsController < ApplicationController
     def index
         count = Greeting.count
         random_offset = rand(count)
